@@ -1,0 +1,12 @@
+# 0x5da AutoCTF v2.0.0 — HackTheBox VPS Auto-Hack Toolkit
+# Created by 0x5da (Toasty / OsintToast / WoahToast)
+#
+# Required: None (core runs on Python standard library)
+# Optional: Install these for full functionality
+
+# SSH Brute Force module
+paramiko>=3.0.0
+# MySQL/MariaDB brute force + dump module
+pymysql>=1.0.0
+# VNC DES challenge-response brute force
+pycryptodome>=3.18.0
